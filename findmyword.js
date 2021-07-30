@@ -7,7 +7,7 @@ function* walkSync(dir) {
 		if (files[i].isDirectory()) {
 			yield* walkSync(path.join(dir, files[i].name));
 		} else {
-			if (files[i].name !== "govtech.js") {
+			if (files[i].name !== "findmyword.js") {
 				yield path.join(dir, files[i].name);
 			}
 		}
