@@ -39,7 +39,7 @@ printFile = (file) =>
 		});
 	});
 
-const govtech = async () => {
+const findmyword = async () => {
 	const directories = walkSync(__dirname);
 
 	try {
@@ -55,4 +55,4 @@ const govtech = async () => {
 	}
 };
 
-govtech();
+findmyword();
